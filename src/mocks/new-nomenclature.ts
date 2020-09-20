@@ -1,0 +1,17 @@
+export default {
+    trade_name_id: 1,
+    international_name_id: 1,
+    latin_name: 'some medication',
+    dosage_form_id: 1,
+    dosage_id: 1,
+    packing_id: 1,
+    packaging_id: 1,
+    country_id: 1,
+    manufacturer_id: 1,
+    measurement_unit_id: 1,
+    tax_rate_id: 1,
+    medication_type_id: 1,
+    coefficient: 1,
+    gtin: 1,
+    barcode: '10001010101',
+};

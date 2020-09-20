@@ -1,0 +1,57 @@
+.line-input-mixin {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 40px;
+}
+
+.epi {
+    &__title-label {
+        .line-input-mixin();
+
+        margin-right: 16px;
+    }
+
+    &__date-input {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0;
+    }
+
+    &__line-input {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0;
+
+        &:not(:last-child) {
+            margin-right: 16px;
+        }
+    }
+
+    &__save-button {
+        display: inline-block;
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+
+    &__main-shape {
+        position: relative;
+    }
+
+    &__back-button {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+
+    &__modal-content {
+        min-width: 800px;
+    }
+
+    &__proceed-button {
+        margin: 48px auto 0;
+    }
+
+    &__accordion {
+        margin-bottom: 24px;
+    }
+}

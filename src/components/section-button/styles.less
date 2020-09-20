@@ -1,0 +1,49 @@
+.section-button {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: @colorFontPrimary;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &.is-active {
+        background-color: rgba(7, 190, 102, 0.5);
+        color: @colorWhite;
+    }
+
+    &__icon {
+        margin: 0 auto 6px;
+        width: 24px;
+        height: 24px;
+    }
+
+    &__label {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: normal;
+        text-align: center;
+        white-space: pre;
+    }
+
+    &__alert {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: @colorBasicThird;
+    }
+}

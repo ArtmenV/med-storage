@@ -1,0 +1,64 @@
+.container-salesInvoice {
+    padding: 0 80px;
+    margin: 0 auto;
+    min-width: 1080px;
+    .form-field__label {
+        margin-top: 1rem;
+    }
+    .accordion__label {
+        margin-bottom: .5rem;
+        margin-right: 15px !important;
+    }
+    .nameclature-table {
+        margin-top: 1rem;
+    }
+    .epi__date-input {
+        margin-right: 1rem !important;
+    }
+    .epi__proceed-button {
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .modal__wrapper {
+      width: 860px;
+      max-width: 100%;
+    }
+}
+.nomenclatures-salesInvoice-table {
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    &__container {
+        overflow-y: scroll;
+    }
+    &__row-actions {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__totals {
+        margin-top: 16px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__totals-name,
+    &__totals-value {
+        display: inline-block;
+        vertical-align: baseline;
+        margin-right: 24px;
+    }
+    .form-field {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-field__label--inline {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .epi__date-warehouse {
+        margin-left: 0 !important;
+    }
+}
